@@ -14,5 +14,5 @@ ingredients.forEach(value => {
   list.append(listItem);
   listItem.classList.add('item')
 });
-const lastEnd = document.querySelector('#ingredients');
+const lastEnd = document.querySelector('ul#ingredients');
 lastEnd.append(list);
